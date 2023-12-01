@@ -18,4 +18,4 @@ else
     $(pwd)/ros/build.sh
 fi
 
-docker run -it --rm --device=/dev/ttyUSB0:/dev/ttyUSB0 --device=/dev/video0:/dev/video0 -p 8888:8888 -p 5000:5000 -v $(pwd)/ros/notebooks:/root/notebooks ros_car
+docker run -it --rm --device=/dev/ttyUSB0:/dev/ttyUSB0 --device=/dev/video0:/dev/video0 -p 8888:8888 -p 5000:5000 -v $(pwd)/notebooks:/root/notebooks ros_car
