@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_car</name>
+  <version>0.0.1</version>
+  <description>The ros_car package</description>
+
+  <maintainer email="adam@12thfloor.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+    <!-- Other tools can go here -->
+  </export>
+</package>
