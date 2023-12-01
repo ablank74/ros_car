@@ -41,6 +41,7 @@ RUN echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 RUN apt-get update && apt-get install -y python3-pip
 RUN pip3 install jupyterlab
 RUN pip3 install matplotlib
+RUN pip3 install adafruit-circuitpython-pca9685
 
 # Set the workspace directory
 WORKDIR /root/catkin_ws
