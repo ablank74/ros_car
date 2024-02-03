@@ -1,4 +1,4 @@
-This is an attempt to create a ROS Noetic based robot car.  The harware is as follows
+This is an attempt to create a ROS Noetic based robot car.  The hardware is as follows
 Chassis: Traxxas TRX4
 Radio: IKON 3 channel
 Compute: Nvidia Jetson Nano
